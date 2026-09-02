@@ -6,5 +6,17 @@ int main() {
     printf("\nEnter Number 2:");
     float num2;
     scanf("%f", &num2);
-    
+    printf("\nSelect from the Options:\n1. Addition:");
+    int ch;
+    scanf("%d", &ch);
+    switch(ch) {
+        case 1: 
+        float add = num1 + num2;
+        printf("Answer: %.2f", add);
+        break;
+        default: 
+        printf("\nInvalid Choice.");
+        return 0;
+    }
+    return 0; 
 }
