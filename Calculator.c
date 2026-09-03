@@ -12,15 +12,19 @@ int main() {
     switch(ch) {
         case 1: 
         float add = num1 + num2;
-        printf("Answer: %.2f", add);
+        printf("\nAnswer: %.2f", add);
         break;
         case 2:
         float sub = num1 - num2;
-        printf("Answer: %.2f", sub);
+        printf("\nAnswer: %.2f", sub);
         break;
         case 3:
         float multi = num1 * num2;
-        printf("Answer: %.2f", multi);
+        printf("\nAnswer: %.2f", multi);
+        break;
+        case 4:
+        float div = num1 / num2;
+        printf("\nAnswer: %.2f", div);
         break;
         default: 
         printf("\nInvalid Choice.");
