@@ -18,9 +18,12 @@ int main() {
         float sub = num1 - num2;
         printf("Answer: %.2f", sub);
         break;
+        case 3:
+        float multi = num1 * num2;
+        printf("Answer: %.2f", multi);
+        break;
         default: 
         printf("\nInvalid Choice.");
-        return 0;
     }
     return 0; 
 }
